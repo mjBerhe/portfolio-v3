@@ -86,9 +86,7 @@ export default function HomePage() {
       <div className="mx-auto flex h-full max-w-5xl flex-col" ref={topRef}>
         <div className="flex min-h-screen items-center justify-start">
           <div className="flex w-full flex-col gap-y-3">
-            <span className="text-lg text-accent">
-              Appreciate the visit, I&apos;m
-            </span>
+            <span className="text-lg text-accent">Appreciate the visit</span>
             <span className="text-6xl font-bold tracking-tighter">
               Matthew Berhe
             </span>
@@ -98,9 +96,7 @@ export default function HomePage() {
             <div className="ml-1 max-w-[550px] border-l-2 border-accent pl-4">
               <span className=" text-slate-300">
                 I&apos;m a software engineer based in Toronto who enjoys
-                creating tools to make our lives just a little more simpler. I
-                strive to create enjoyable user expieriences while providing
-                real utility.
+                creating tools to make our lives just a little bit simpler.
               </span>
             </div>
           </div>
