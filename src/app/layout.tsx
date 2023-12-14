@@ -4,7 +4,7 @@ import { DM_Sans } from "next/font/google";
 export const metadata = {
   title: "Matthew Berhe",
   description: "Matthew Berhe's Porfolio",
-  icons: [{ rel: "icon", url: "/favicon.ico" }],
+  // icons: [{ rel: "icon", url: "/" }],
 };
 
 const dm_sans = DM_Sans({
