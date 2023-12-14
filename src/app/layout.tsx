@@ -1,11 +1,5 @@
 import "~/styles/globals.css";
-
-import { Inter } from "next/font/google";
-
-const inter = Inter({
-  subsets: ["latin"],
-  variable: "--font-sans",
-});
+import { DM_Sans } from "next/font/google";
 
 export const metadata = {
   title: "Matthew Berhe",
@@ -13,14 +7,20 @@ export const metadata = {
   icons: [{ rel: "icon", url: "/favicon.ico" }],
 };
 
+const dm_sans = DM_Sans({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-dm-sans",
+});
+
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className={`font-sans ${inter.variable}`}>{children}</body>
+    <html lang="en" className={dm_sans.variable}>
+      <body>{children}</body>
     </html>
   );
 }

@@ -6,7 +6,10 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["var(--font-sans)", ...fontFamily.sans],
+        "dm-sans": ["var(--font-dm-sans)"],
+      },
+      colors: {
+        accent: "#9cdcfc",
       },
     },
   },
